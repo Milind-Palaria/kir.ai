@@ -80,7 +80,7 @@ export default function App({ Component, pageProps }) {
 
       <AuthProvider>
         <CartProvider>
-
+        <CustomCursor/>
         <MainNav />
         <Component {...pageProps} />
        <MainFooter/>

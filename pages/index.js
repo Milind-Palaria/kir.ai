@@ -47,10 +47,10 @@ export default function Home() {
         setUserEmail(auth.currentUser.email);
         setisUser(true);
         // setbtnDisable(true);
-        console.log(auth.currentUser.displayName);
+        // console.log(auth.currentUser.displayName);
       } else {
         setisUser(false);
-        console.log("User Not Found");
+        // console.log("User Not Found");
       }
     });
   }, [isUser]);

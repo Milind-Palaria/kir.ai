@@ -60,7 +60,7 @@ function HomeGradient({
 
   const scroller = () => {
     window.scrollTo({
-      
+      top: window.innerHeight * 0.9,
       behavior: 'smooth',
     });
   }

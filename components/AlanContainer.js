@@ -30,7 +30,7 @@ const AlanContainer = ({ yo, setYo }) => {
       onCommand: (commandData) => {
         if (commandData.command === "navigation") {
           let val = commandData.route;
-          console.log(val);
+          // console.log(val);
           if (val === "product") {
             router.push("/components/ProductPage");
           }else if(val==="home"){

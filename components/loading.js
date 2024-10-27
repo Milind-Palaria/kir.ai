@@ -35,7 +35,7 @@ const Loading = () => {
 
     const t1 = gsap.timeline({
       onComplete: () => {
-        console.log("completed");
+        // console.log("completed");
       },
     });
     t1.to("#text", {
@@ -67,7 +67,7 @@ const Loading = () => {
   const blinker = () => {
     const t2 = gsap.timeline({
       onComplete: () => {
-        console.log("completed");
+        // console.log("completed");
       },
     });
     t2.to("#para", {

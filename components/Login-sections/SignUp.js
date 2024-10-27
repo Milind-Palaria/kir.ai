@@ -139,7 +139,7 @@ const SignUp = () => {
                     displayName: registerName,
                 })
                     .then(() => {
-                        console.log("Profile Updated");
+                        // console.log("Profile Updated");
                     })
                     .catch((error) => {
                         console.log(error);
