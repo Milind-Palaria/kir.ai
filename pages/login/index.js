@@ -51,9 +51,9 @@ export default function LoggingIn() {
             <circle cx="121.819" cy="83.613" r="1.7774" fill="#323232" stroke="white" />
           </g>
         </svg>
-        <div className="battu posi--1"><span className="spanu"></span></div>
-        <div className="battu posi--2"><span className="spanu"></span></div>
-        <div className="battu posi--3"><span className="spanu"></span></div>
+          <div className="battu posi--1"><span className="spanu"></span></div>
+          <div className="battu posi--2"><span className="spanu"></span></div>
+          <div className="battu posi--3"><span className="spanu"></span></div>
         <div className="w-screen h-screen relative ">
           <h1 className={`${player.className} absolute z-[-1] text-[15vw] text-[#4dffb5]/80 opacity-20 left-[-9%] bottom-[30vh] rotate-90 leading-0 max-md:bottom-[66vh] max-md:text-[19vw] max-md:left-[-11.5%]`}>Login</h1>
           <h1 className={`${player.className} absolute z-[-1] text-[15vw] text-[#4dffb5]/80 opacity-20 right-[-17%] bottom-[30vh] -rotate-90 leading-0 max-md:bottom-[25vh] max-md:text-[19vw] max-md:right-[-21.5%]`}>Register</h1>

@@ -76,7 +76,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicons/home.png"/>
       </Head>
       {loading && <Loading />}
-      <CustomCursor/>
+      
 
       <AuthProvider>
         <CartProvider>

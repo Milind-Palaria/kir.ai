@@ -16,6 +16,7 @@
 
 Welcome to the Kir.AI repository! Kir.AI revolutionizes the rental marketplace by integrating cutting-edge AI technology, offering a seamless and intelligent rental experience for accommodations, vehicles, and home appliances. Our platform provides full website navigation through AI voice commands, bringing convenience and luxury to your fingertips.
 
+![Kir.AI Home Page](/images/main_gif_1.gif)
 
 ## 📋 Table of Contents 📋
 
@@ -33,6 +34,7 @@ Welcome to the Kir.AI repository! Kir.AI revolutionizes the rental marketplace b
 
 ## 📷 Site Preview 📷
 
+![Kir.AI Bike Section](/images/main_gif_2.gif)
 ![Kir.AI Bike Section](/images/ss_bikes.png)
 ![Kir.AI Bike Page](/images/ss_bikepage.png)
 
@@ -114,8 +116,10 @@ We welcome contributions to enhance the Kir.AI platform. To contribute:
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a Pull Request.
+<div align="center">
 
 ![Kir.AI Mobile View](/images/ss_mobile.png)
+</div>
 
 
 
@@ -128,7 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](/License) fil
 For any inquiries or feedback, please contact us at:
 
 - **Email**: palaria23@gmail.com
-- **Website**: [www.kir.ai](kirai.vercel.app)
+- **Website**: [kirai.vercel.app](kirai.vercel.app)
 - **GitHub**: [Kir.AI Repository](https://github.com/Milind-Palaria/kir.ai)
 
 ---

@@ -23,6 +23,7 @@
     "firebase": "^9.21.0",
     "fontfaceobserver": "^2.3.0",
     "framer-motion": "^11.5.4",
+    "Kir.ai": "file:",
     "mdb-react-ui-kit": "^6.0.0",
     "net": "^1.0.2",
     "next": "^13.4.12",

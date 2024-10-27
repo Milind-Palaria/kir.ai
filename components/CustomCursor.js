@@ -7,8 +7,9 @@ const CustomCursor = () => {
 
   const handleMouseMove = (event) => {
     setPosition({ x: event.clientX, y: event.clientY });
+    // console.log(event.clientX)
 
-    const element = document.elementFromPoint(event.clientX, event.clientY);
+    const element = document.elementFromPoint(event.clientX, event.clientY);  
 
     if (element && element.tagName === 'IFRAME') {
       setIsIframe(true);
