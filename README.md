@@ -1,6 +1,9 @@
+<div align="center">
+
 # 🤖 Kir.AI - Your AI-Driven Rental Experience 🤖 
 
-![Kir.AI Home Page](/images/ss_home.png)
+![Kir.AI Home Page](/images/main_landing_gif.gif)
+
 
 <div align="center">
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
@@ -11,12 +14,13 @@
 
   </div>
 
+</div>
 
 ## **"Rent Smart, Live Luxuriously."**
 
 Welcome to the Kir.AI repository! Kir.AI revolutionizes the rental marketplace by integrating cutting-edge AI technology, offering a seamless and intelligent rental experience for accommodations, vehicles, and home appliances. Our platform provides full website navigation through AI voice commands, bringing convenience and luxury to your fingertips.
 
-![Kir.AI Home Page](/images/main_gif_1.gif)
+![Kir.AI Home Page](/images/ss_home.png)
 
 ## 📋 Table of Contents 📋
 
@@ -31,19 +35,18 @@ Welcome to the Kir.AI repository! Kir.AI revolutionizes the rental marketplace b
 - [📜 License 📜](#-license-)
 - [🔗 Contact 🔗](#-contact-)
 
-
 ## 📷 Site Preview 📷
 
-![Kir.AI Bike Section](/images/main_gif_2.gif)
-![Kir.AI Bike Section](/images/ss_bikes.png)
-![Kir.AI Bike Page](/images/ss_bikepage.png)
+![Kir.AI Home Page](/images/main_loading_gif.gif)
+<!-- ![Kir.AI Bike Section](/images/ss_bikes.png) -->
+![Kir.AI Bike Section](/images/main_category_gif.gif)
 
 
 ## 🐙 Introduction 🐙
 
 Kir.AI is an AI-driven rental platform designed to provide a premium, user-friendly experience. Whether you're looking to rent a cozy apartment, a sleek vehicle, or the latest home appliances, Kir.AI caters to all your needs with the added luxury of voice command navigation.
 
-![Kir.AI BestSeller](/images/ss_bestseller.png)
+![Kir.AI Bike Page](/images/ss_bikepage.png)
 
 
 
@@ -57,7 +60,7 @@ Kir.AI is an AI-driven rental platform designed to provide a premium, user-frien
 - **Payment Integration**: Secure and flexible payment options.
 - **Admin Panel**: Comprehensive admin panel for managing listings, users, and orders.
 
-![Kir.AI Product Page](/images/ss_productpage.png)
+![Kir.AI BestSeller](/images/ss_bestseller.png)
 
 
 ## ⚙️ Technologies Used ⚙️
@@ -67,6 +70,9 @@ Kir.AI is an AI-driven rental platform designed to provide a premium, user-frien
 - **Voice Command API**: Alan AI
 - **Payment Gateway**: Stripe
 - **Deployment**: Vercel
+
+![Kir.AI Product Page](/images/ss_productpage.png)
+
 
 ## 💿 Installation 💿 
 
