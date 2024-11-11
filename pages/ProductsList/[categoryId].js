@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import CarouselPage from "../../components/Carousel";
 import ProductCard from "../../components/ProductCards";
-import Footer from "../../components/footer";
 import classes from "../../styles/Home.module.css";
 import { useState } from "react";
 import { useRouter } from "next/router";
@@ -260,9 +259,6 @@ export default function ProductsList() {
         </div>
 
       </div>
-
-      <Footer />
-
     </div>
   );
 }

@@ -2,7 +2,6 @@ import Navbar1 from "../components/navbar";
 import MidSection from "../components/midSection";
 import Corousel from "../components/Carousel";
 import ProgressBar from "react-progressbar-on-scroll";
-import Footer from "../components/footer";
 import HomeGradient from "../components/HomeGradient";
 import { useState, useEffect } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -149,7 +148,6 @@ export default function Home() {
           RVProps={rv}
           IotProps={iot}
         />
-        {/* <Footer /> */}
         {/* <MainFooter/> */}
         {/* <ProgressBar color="#4dffb5" height={10} position="bottom" /> */}
         {/* </emailContext.Provider>  */}
