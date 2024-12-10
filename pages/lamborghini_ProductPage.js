@@ -19,6 +19,9 @@ export default function LamborghiniProductPage({ data }) {
   const router = useRouter();
   
   const { user } = useAuth();
+
+  const [bigImage, setBigImage] = useState("/carcarousel3.jpg");
+
   // const addToCart = async () => {
   //   if (user) {
   //     await addDoc(cartRef, {
@@ -65,6 +68,11 @@ export default function LamborghiniProductPage({ data }) {
     router.push("/components/History");
   };
 
+    // Handler to update the big image when a small image is clicked
+    const handleImageClick = (imageUrl) => {
+      setBigImage(imageUrl);
+    };
+
   return (
     <div>
       <div className={classes.first}>
@@ -74,7 +82,7 @@ export default function LamborghiniProductPage({ data }) {
           <div className={classes.big_image_div}>
             <Image
               className={classes.big_image}
-              src="/carcarousel3.jpg"
+              src={bigImage}
               width={1920}
               height={1080}
               alt="Main Product"
@@ -87,6 +95,7 @@ export default function LamborghiniProductPage({ data }) {
                 width={1920}
                 height={1080}
                 alt="Small Product Image"
+                onClick={() => handleImageClick("/carcarousel4.jpg")}
               />
               <Image
                 className={classes.small_image}
@@ -94,6 +103,7 @@ export default function LamborghiniProductPage({ data }) {
                 width={1920}
                 height={1080}
                 alt="Small Product Image"
+                onClick={() => handleImageClick("/carcarousel5.jpg")}
               />
               <Image
                 className={classes.small_image}
@@ -101,6 +111,7 @@ export default function LamborghiniProductPage({ data }) {
                 width={1920}
                 height={1080}
                 alt="Small Product Image"
+                onClick={() => handleImageClick("/carcarousel7.jpg")}
               />
               <Image
                 className={classes.small_image}
@@ -108,6 +119,7 @@ export default function LamborghiniProductPage({ data }) {
                 width={1920}
                 height={1080}
                 alt="Small Product Image"
+                onClick={() => handleImageClick("/carcarousel6.jpg")}
               />
               <div className={classes.more_div}>
                 <h3>more photos</h3>
